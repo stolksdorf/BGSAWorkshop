@@ -6,7 +6,6 @@ Check out the finished version of the project [here](
 http://stolksdorf.github.io/BGSAWorkshop/Javascript/compounds/)
 
 
-
 ### HTML, CSS, JS
 HTML is the structure of our page. It's very similar to the frame of a house. It's simple, just defines where things go, what contains what, and maybe has some identifers for certain chunks of it. This is not 'functional', it's purely markup.
 
