@@ -6,6 +6,8 @@ If you're on a Mac Autohotkey won't work since it's **Windows Only**. There's a 
 
 [List of Commands](https://www.autohotkey.com/docs/commands.htm)
 
+Visit the [Annoy-a-tron 6000](http://stolksdorf.github.io/BGSAWorkshop/Autohotkey/Annoy-a-tron6000/) to test out your AHK skills.
+
 ### Hotstrings
 Hotstrings are simple text replacement commands. They can be used to correct spelling or save you a ton of keystrokes.
 
