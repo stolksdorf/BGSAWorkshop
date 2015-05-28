@@ -1,0 +1,21 @@
+Name,Type,Sequence,Expected,Tolerance,Concentration
+"Collected Wednesday, 27/05/2015",,,,,
+MGC 1-1,Sample,AATGCC,0,0.05,0
+MGC 1-2,Sample,AATGCC,15,0.05,16.3282
+MGC 1-3,Sample,AATGTC,20,0.1,0
+MGC 1-4,Sample,AGTGCC,25,0.1,26.6485
+MGC 1-5,Sample,AATGTC,100,0.2,121.6095
+MGC 1-6,Sample,AATGCC,200,0.2,201.2731
+,Blank,,,,
+,Blank,junk,,,
+,Blank,,,,
+"Collected Wednesday, 27/05/2015",,,,,
+MGC 2-1,Sample,AATGCC,385,0.05,386.2784
+MGC 2-2,Sample,error,285,0.05,284.3164
+MGC 2-3,Sample,AATGTC,200,0.1,217.0176
+MGC 2-4,Sample,AGTGCC,600,0.1,365.3219
+MGC 2-5,Sample,AATGTC,450,0.2,460.2506
+MGC 2-6,Sample,AATGAA,250,0.2,332.457
+,Blank,,,,
+,Blank,,,,
+,Blank,,,,

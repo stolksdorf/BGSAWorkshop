@@ -1,0 +1,12 @@
+section{
+	border : 1px solid #BDC3C7;
+
+	width : 500px;
+	padding : 30px;
+	margin: 30px;
+}
+
+textarea{
+	width : 400px;
+	height: 100px;
+}

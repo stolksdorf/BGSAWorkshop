@@ -1,0 +1,65 @@
+<html>
+<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	</head>
+	<body>
+
+
+	</body>
+
+
+	<script>
+
+	function CSVAJAX(filepath,callback)
+	{
+	    this.request = new XMLHttpRequest();
+	    this.request.timeout = 10000;
+	    this.request.open("GET", filepath, true);
+	    this.request.parent = this;
+	    this.callback = callback;
+	    this.request.onload = function()
+	    {
+	        var d = this.response.split('\n'); /*1st separator*/
+	        var i = d.length;
+	        while(i--)
+	        {
+	            if(d[i] !== "")
+	                d[i] = d[i].split(','); /*2nd separator*/
+	            else
+	                d.splice(i,1);
+	        }
+	        this.parent.response = d;
+	        if(typeof this.parent.callback !== "undefined")
+	            this.parent.callback(d);
+	    };
+	    this.request.send();
+	};
+
+
+	CSVAJAX('http://dd.weather.gc.ca/hydrometric/csv/ON/hourly/ON_02GA034_hourly_hydrometric.csv', function(res){
+		console.log(res);
+	})
+
+
+		$.ajax({
+			ur1 : 'http://dd.weather.gc.ca/hydrometric/csv/ON/hourly/ON_02GA034_hourly_hydrometric.csv',
+			type: "GET",
+			dataType: "csv",
+
+			success : function(res, err, d){
+
+				console.log(res, err, d);
+
+			},
+			error : function(err){
+				console.error(err);
+			}
+
+
+		})
+
+
+
+	</script>
+	</html>

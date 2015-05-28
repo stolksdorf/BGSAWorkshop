@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="Stylesheet" type="text/css" href="reset.css" />
+		<link rel="Stylesheet" type="text/css" href="base.css" />
+		<link rel="Stylesheet" type="text/css" href="style.css" />
+		<title>Find-a-Compound</title>
+	</head>
+	<body>
+
+		<h1>Find-a-Compound</h1>
+
+		<div class='searchContainer'>
+			<input type='text' placeholder='estriol' class='compoundTextbox' />
+			<button class='search'>
+				<i class='fa fa-search'></i>
+			</button>
+
+			<span class='loading'>
+				<i class='fa fa-spinner fa-spin'></i>
+			</span>
+		</div>
+
+		<div class='result'>
+			<h2></h2>
+			<p class='description'></p>
+			<div class='row'>
+				<span class='label'>Compound Id</span>
+				<div class='value compoundId'></div>
+			</div>
+			<div class='row'>
+				<span class='label'>Molecular Formula</span>
+				<div class='value molecularFormula'></div>
+			</div>
+			<div class='row'>
+				<span class='label'>Molecular Weight</span>
+				<div class='value molecularWeight'></div>
+			</div>
+			<div class='row'>
+				<span class='label'>Charge</span>
+				<div class='value charge'></div>
+			</div>
+			<div class='row'>
+				<span class='label'>IUPAC Name</span>
+				<div class='value iupacName'></div>
+			</div>
+			<div class='row'>
+				<span class='label'>XLogP</span>
+				<div class='value xLogP'></div>
+			</div>
+		</div>
+
+		<div class='noCompound'>
+			<i class='fa fa-times'></i> Could not find your compound
+		</div>
+
+		<img class='compoundImage' />
+
+	</body>
+
+	<script type="text/javascript" src="index.js"></script>
+</html>

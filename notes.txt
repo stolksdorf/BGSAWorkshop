@@ -1,0 +1,184 @@
+Coding in the Lab
+
+Go here to see all my slides, code for the projects, and set up instructions
+
+
+Who I am
+	scott.tolksdorf@gmail.com
+	Coding for a long time
+	Web Lead at Thalmic currently
+
+
+What are the goals of this workshop
+
+Workshop breakdown
+	Talky bit
+		- Intro to Coding
+			What is programming
+			Some Languages and the applications
+			Solving problems with logic and decomposition
+		- Basics of programming
+			Variables
+			Operators
+			Functions
+			Control Flow
+		- Real-world programming
+			- How to use the internet to help you learn to code
+			- How to figure out errors and debug them
+			- Going over a bunch of useful resources
+
+	Mini-Projects
+		Automating your computer with Autohotkey
+			Simplify bad and tedious usr interfaces
+			Automate repetitive tasks
+
+		Data processing with Python
+			Parse through a large set of CSV
+			Use string matching, comparisons, and
+
+		Websites with Javascript
+			Make a simple site with data pulled in from other resources
+
+What do you need?
+	Link to repo
+	Computer with a suitable text editor
+	Autohotkey installed (Windows only)
+	Python Installed
+
+
+What is programming?
+	Programming is the act or process of planning.
+	I am giving the machine a series of instructions to run.
+	Very similar to a recipe or a script for a play
+	The computer is dumb and will follow my instructions perfectly
+	Programming is very specific
+
+Languages
+	- Progrmaming comes in many dialects
+	They are similar to spoken languages, they have different syntaxes, shared words and styles
+	- However they are also tools, like saws and hammers, each having a prupose and something it excels at
+	- Some are good at large data processing, making games, being easy to read and understand, or running on limited hardware (like microwaves)
+	The underlying concepts, which we will cover, stay the same between languages, but the more you know the easier and more capable your creations can become.
+	Sonatas, novels, text messages, government reports, or recipes all use the same medium but in very different forms and purposes
+
+Looking at problems in a new way
+	The hardest part of learning programming is learning to approach problems in a new way.
+	Also learning what kind of problems can be solved using computers (it's more than you think)
+
+Decomposition
+	The best tactic is decomposition, or breaking a problem down into smaller parts.
+	Humans are great at context and intuition. Computers are not, a blank state.
+	Everything must be provided to them.
+	"Go get milk" example
+
+Lad tech Example
+
+
+
+
+Common issues people have with programming
+	It is very specific
+	High learning curve
+	Resources are too high level
+
+
+
+////////////////////////////
+
+Fundementals of Coding
+	There are basic concepts that exist in every language
+	We'll cover them
+
+Running Code
+	When we say "running code" or a program is running, it means that the computer is reading my code line by line, figuring out what it says, executing the tasks I outline, then goes to the next line
+	It is essentially a recipe
+
+Variables
+	Variables are buckets were we store values
+	They can be passed around, manipulated, set with different values
+	Variables are named for legibility, use camelCasing
+
+Atomic Types
+	Strings
+	Numbers
+	Booleans
+	Null, Nil, Undefined
+
+Collection Types
+	Arrays (lists)
+	Objects (hashmaps, dictionaries)
+
+	Arrays are used for ordered information, such as a todo list
+	To refer to a value in a certain position in the array, we talk about it's index
+	To add to an array we use 'push'
+	We use square brackets to indicate an array
+	We use square brackets with the index inside to reference a value
+
+
+	Objects are used for key-value data, like a phonebook, or an encyclopedia
+	A 'key' is used as a reference to associated value
+	We use curly braces to indicate objects
+	We use dot notation to reference a value
+
+Functions
+	functions allow us to write tasks into a single "call"
+	When the program is running, if it encounters a function it stops and runs the code within the function and then returns back where it was
+	Functions can take "arguments" and return a value
+
+Nesting Data
+	Since objects and arrays can store any type, we can store arrays within arrays, etc.
+	This allows you to store and structure a lot of data in just one variable.
+	Example: potlouck list with people's names and a list of foods
+
+
+Structuring our data
+	This is useful for defining how our data should be stored and used
+	This is incredibly important technique to learn as it heavily dictates how we write our code
+	Much of my day-to-day job is figuring out the best ways to structure data
+	Extreme example of structuring
+
+
+Operators
+	Beyond variables we have operators to manipulate the values of variables
+	Standard arthimetic +, -, * and /
+	Rational operators always return either a true or false, >,<, ==, !=
+	Logical operators compare booleans, && and ||
+	Variables and operators together form an "expression"
+
+Conditionals
+	Conditionals are kinda like functions
+	We define them with some code, and you "pass" in an boolean expression
+	If the expression yeilds true, the code runs, otherwise it doesn't
+
+Looping
+	Last thing to cover in the basics
+	Sometimes we need to loop over the same code many times
+	Most often this will be used for iterating over the elements in a list or an object
+	Traditionally languages use "for" and "while" loops, but I find these concepts clunky and difficult to grasp
+	Instead we'll learn map and reduce
+
+Map (foreach, each)
+	Map takes in a collection and a function
+	It then applys that function to each item in the collection
+	Map then creates a new array from the results of the function and returns that
+	The returned array should be the exact length as the input
+	think of it as a "transformation" on the collection
+	Adding and movie watch example
+
+Reduce (filter, pluck, sum)
+	Reduce is very similar, where it takes a collection and a function, but also a starting value
+	Reduce will pass a 'result' variable into the function as well
+	Whatever the function returns becomes the new result variable value
+	When Reduce exhuasts the collection, it returns whatever is in the result variable
+	Reduce is useful for when you need something smaller than the original list
+	example: sum and filter
+
+Basically The Basics
+	Every program is written with these fundementals
+	I do not expect you to fully remember/understand this, but being exposed to it and at least knowing the names of things is useful to google later
+	Theres so much more crazy stuff: Polymorphism, classes, inheritance, prototypes, scoping, etc.
+	But we're starting with birdhouses, not roll-top desks
+
+Break time
+
+

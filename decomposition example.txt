@@ -1,0 +1,63 @@
+"We have to go through the data and figure out which samples are good"
+
+Okay how do I start?
+
+"For each row Figure out if that row is good and flag it"
+
+for each row
+if row is good, then flag
+
+What do you mean flag it?
+
+"For each row figure out if that row is good and add an 'X' to the flag column"
+
+for each row
+if row is good, then set flag to 'X'
+
+What does good mean?
+
+"Good means if the sample value is within an acceptable range"
+
+How do you figure out an acceptable range?
+
+"if the sample value is within the target value and plus/minus the error, it's good"
+
+for each row
+if sample value is greater than target value - error and less than target value + error,
+then set flag to 'X'
+
+Where do I find these values in the row?
+
+for each row
+sample is column 8
+target is column 2
+error is column 4
+flag is column 11
+if sample is greater than target - error and less than target + error,
+then set flag to 'X'
+
+let's tab it out
+
+for each row
+	sample is column 8
+	target is column 2
+	error is column 4
+	flag is column 11
+	if sample is greater than target - error and less than target + error,
+		then set flag to 'X'
+
+Add some programming fluff
+
+for each row in rows{
+	var sample = row[8]
+	var target = row[2]
+	var error = row[4]
+	var flag = row[11]
+	flag is column 11
+	if(sample > target - error && sample <target + error){
+		flag = 'X'
+	}
+}
+
+TA-DA
+
