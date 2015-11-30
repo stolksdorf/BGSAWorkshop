@@ -9,8 +9,6 @@ Who I am
 	Web Lead at Thalmic currently
 
 
-What are the goals of this workshop
-
 Workshop breakdown
 	Talky bit
 		- Intro to Coding
@@ -53,7 +51,7 @@ What is programming?
 	The computer is dumb and will follow my instructions perfectly
 	Programming is very specific
 
-Languages
+What are Languages?
 	- Progrmaming comes in many dialects
 	They are similar to spoken languages, they have different syntaxes, shared words and styles
 	- However they are also tools, like saws and hammers, each having a prupose and something it excels at
@@ -69,19 +67,17 @@ Decomposition
 	The best tactic is decomposition, or breaking a problem down into smaller parts.
 	Humans are great at context and intuition. Computers are not, a blank state.
 	Everything must be provided to them.
-	"Go get milk" example
+	Lad tech Example
 
-Lad tech Example
+////////////////////////////
 
-
-
-
-Common issues people have with programming
-	It is very specific
-	High learning curve
-	Resources are too high level
-
-
+Tools and Tips
+	Use google a lot
+	Type out your exact question in google with what language you're programming in
+	Stackoverflow has great answers
+	Syntax is ruthless, get a programmer to check it for you when you get stuck
+	Test often
+	Use good variable names and comment your code
 
 ////////////////////////////
 

@@ -1,5 +1,7 @@
 # python
 
+[Download Python 2.7 here](https://www.python.org/downloads/)
+
 Python is a great language to start with. It has easy syntax, powerful, great community and documentation. Today we're going to use it for massive data processing.
 
 **Note** : You might have to add python to your `PATH`. Instructions [here](http://stackoverflow.com/questions/6318156/adding-python-path-on-windows-7)

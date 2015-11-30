@@ -1,10 +1,14 @@
 # Autohotkey
 
+[Download Autohotkey here](http://www.autohotkey.com/)
+
 Autohotkey is a scripting tool used to control keyboard presses and mouse movements on your computer. The language is very simple, easy to install, and has a very wide range of applications.
 
 If you're on a Mac Autohotkey won't work since it's **Windows Only**. There's a Mac equivilent called [AppleScript](http://computers.tutsplus.com/tutorials/the-ultimate-beginners-guide-to-applescript--mac-3436). Check it out!
 
 [List of Commands](https://www.autohotkey.com/docs/commands.htm)
+
+Visit the [Annoy-a-tron 6000](http://stolksdorf.github.io/BGSAWorkshop/Autohotkey/Annoy-a-tron6000/) to test out your AHK skills.
 
 ### Hotstrings
 Hotstrings are simple text replacement commands. They can be used to correct spelling or save you a ton of keystrokes.
